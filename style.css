@@ -5,8 +5,54 @@
 
 html,
 body {
+  background: #666666;
   margin: 0;
   padding: 0;
 }
 
-/* Add styles here! */
+.max-width-wrapper {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header {
+  background: white;
+  border-bottom: 8px solid #999999;
+}
+
+.intro-chunk {
+  font-size: 1.25rem;
+  padding: 24px;
+  width: 500px;
+}
+
+.title {
+  font-size: 3rem;
+}
+
+strong {
+  color: #009966;
+}
+
+.card {
+  font-size: 1.25rem;
+  margin-top: 72px;
+  background: white;
+  border-bottom: 8px solid #999999;
+  padding: 8 24 24 24;
+}
+
+.card p {
+  margin-bottom: 0;
+}
+
+.indented-heading {
+  font-size: 1.5rem;
+  background: #FFBF00;
+  border-bottom: 8px solid #CC9900;
+  padding: 15 32 16 32;
+  max-width: 430px;
+  margin-top: 0px;
+  margin-left: -32px;
+}
